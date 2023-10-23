@@ -121,7 +121,8 @@ nav ul {
 }
 
 nav ul li {
-  display: inline;
+  display: inline-grid;
+  justify-items: stretch;
   margin: 10px 20px;
 }
 
