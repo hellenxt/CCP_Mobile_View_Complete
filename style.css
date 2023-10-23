@@ -109,6 +109,7 @@ nav ul li a {
 /* Style for the active page in the navigation bar */
 nav ul li a.active {
   font-weight: bold;
+  text-decoration: dotted underline;
 }
 
 /* Style for the "Skip to Main Content" link */
