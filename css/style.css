@@ -63,10 +63,12 @@ h3{
 
 .container2 {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 5px;
   border: dotted #c9a34b;
-  align-items: stretch;
+  height:auto;
+  justify-content: center;
+  grid-template-columns: repeat(3, 91px, 91px)
 }
 
 .container3 {
