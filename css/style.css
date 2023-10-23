@@ -155,7 +155,7 @@ a:visited{
 }
 
 nav{
-  padding: 10px 0;
+  padding: 4px 0;
   text-align: center;
   font-size: 20pt;
   font-family: 'Courier New', Courier, monospace;
@@ -179,7 +179,7 @@ img{
 header {
   background-color: #466aaa;
   color: white;
-  padding: 10px 0;
+  padding: 0px 0;
   text-align: center;
 }
 
@@ -243,20 +243,24 @@ div ol{
 
 .animation {
   position: relative;
-  margin: 15px;
+  margin: 12px;
   font-size: 8px;
+  border: none;
 }
 .animation span {
   font-size: 3rem;
   font-family: "courier new";
   font-weight: bold;
   position: relative;
-  display: inline-block;
+  display:inline-block;
+  border:none;
   color: rgb(255, 231, 210);
   text-transform: initial;
   animation: animation 1s 2;
   animation-delay: calc(0.1s * var(--i));
 }
+
+
 @keyframes animation {
   0%,
   40%,
