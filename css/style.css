@@ -42,7 +42,7 @@ body{
 
 .current,
 .current:focus{
-  color: #8080ff;
+  color: #b7ffab;
   font-weight: bold;
 }
 
@@ -240,7 +240,7 @@ nav ul li {
   border-radius: 2px;
   padding: 10px 10px 10px 10px;
   margin: 0px 10px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 nav ul li a {
