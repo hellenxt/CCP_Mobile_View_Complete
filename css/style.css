@@ -204,7 +204,7 @@ nav{
   padding-top: 15px;
   padding-bottom: -5px;;
   text-align: center;
-  font-size: 22pt;
+  font-size: 24pt;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -240,7 +240,7 @@ nav ul li {
   border-radius: 2px;
   padding: 10px 10px 10px 10px;
   margin: 0px 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 nav ul li a {
