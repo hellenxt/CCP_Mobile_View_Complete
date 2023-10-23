@@ -93,6 +93,7 @@ h3{
   display: grid;
   height: 400px;
   overflow: scroll;
+  padding: 2%;
 }
 
 figure {
@@ -184,6 +185,7 @@ header {
 
 nav ul {
   list-style-type: none;
+  font-size: 14px;
 }
 
 nav ul li {
@@ -193,7 +195,7 @@ nav ul li {
   border-radius: 2px;
   padding: 10px 10px 10px 10px;
   margin: 0px 10px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 nav ul li a {
@@ -210,6 +212,9 @@ nav ul li a {
   margin: 20px;
 }
 
+p{
+  font-size: 14px;
+}
 /* Additional styles for individual content items (divs) */
 div {
   padding: 2%;
