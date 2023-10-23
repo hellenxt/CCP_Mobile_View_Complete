@@ -73,8 +73,9 @@ h3{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 10px;
   align-items: stretch;
+  border: none;
 }
 
 .pet{
@@ -88,6 +89,9 @@ h3{
   grid-template-columns: 1fr;
   gap: 5px;
   background-color: #ffffff;
+  border: none;
+  width: auto;
+  padding: 2%;
 }
 .recipe{
   display: grid;
@@ -101,8 +105,9 @@ h3{
 .travel {
   display: grid;
   height: 400px;
-  overflow: scroll;
+  overflow-y: scroll;
   padding: 2%;
+  width: auto;
 }
 
 figure {
@@ -176,7 +181,7 @@ nav{
 
 .container{
   display: grid;
-  width:100pt;
+  width:auto;
   grid-template-columns: 1fr 2fr;
   gap:20px;
   row-gap: 15px;
@@ -218,7 +223,7 @@ nav ul li a {
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
   column-gap: 30px;
-  margin: 20px;
+  margin: 14px;
 }
 
 p{
