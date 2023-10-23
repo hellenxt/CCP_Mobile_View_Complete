@@ -66,6 +66,15 @@ h3{
   grid-template-columns: 1fr;
   gap: 5px;
   border: dotted #c9a34b;
+  align-items: stretch;
+}
+
+.container3 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: stretch;
 }
 
 .pet{
@@ -101,6 +110,7 @@ figure {
   width: 100%;
   max-height: 55%;
   object-fit: cover;
+  align-items: stretch;
 }
 
 figcaption {
@@ -176,7 +186,6 @@ img{
   height: auto;
 }
 
-/* Basic styling for the navigation bar */
 header {
   background-color: #466aaa;
   color: white;
@@ -204,7 +213,6 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* Grid layout for the main content */
 #main {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -216,7 +224,6 @@ nav ul li a {
 p{
   font-size: 14px;
 }
-/* Additional styles for individual content items (divs) */
 div {
   padding: 2%;
   border: 2px solid #ccc;
@@ -228,8 +235,6 @@ div ul {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-
-/* Media query for responsiveness */
 @media (max-width: 768px) {
   #main {
       grid-template-columns: 1fr;
