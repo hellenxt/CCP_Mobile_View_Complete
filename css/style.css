@@ -53,8 +53,7 @@ h3{
   text-align: center;
 }
 
-.container1,
-.container3 {
+.container1 {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -64,8 +63,50 @@ h3{
 
 .container2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 5px;
+  border: dotted #c9a34b;
+}
+
+.pet{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+  background-color: #fff2f2;
+}
+.travel{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+  background-color: #ffffff;
+}
+.recipe{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+  background-color: #fffee4;
+}
+
+.pet,
+.recipe,
+.travel {
+  display: grid;
+  height: 400px;
+  overflow: scroll;
+}
+
+figure {
+  margin-inline: 0px;
+  width: 100%;
+  max-height: 55%;
+  object-fit: cover;
+}
+
+figcaption {
+  font-size: 12px;
+  text-align: center;
+  overflow: auto;
+  padding: 1%;
 }
 
 img,
@@ -171,8 +212,8 @@ nav ul li a {
 
 /* Additional styles for individual content items (divs) */
 div {
-  padding: 20px;
-  border: 1px solid #ccc;
+  padding: 2%;
+  border: 2px solid #ccc;
   border-radius: 5px;
 }
 
@@ -201,11 +242,12 @@ div ol{
   font-size: 8px;
 }
 .animation span {
-  font-size: 2rem;
-  font-family: "Roboto";
+  font-size: 3rem;
+  font-family: "courier new";
+  font-weight: bold;
   position: relative;
   display: inline-block;
-  color: rgb(223, 110, 12);
+  color: rgb(255, 231, 210);
   text-transform: initial;
   animation: animation 1s 2;
   animation-delay: calc(0.1s * var(--i));
