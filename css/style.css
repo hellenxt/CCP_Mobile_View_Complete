@@ -12,6 +12,25 @@ body > a:first-child:focus{
   top: 30px
 }
 
+a.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+a.skip-link:focus {
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+}
+
 body{
   background-color: #fff5e7;
   font-size: 18px;
@@ -53,6 +72,13 @@ h3{
   text-align: center;
 }
 
+.container{
+  display: grid;
+  width:auto;
+  grid-template-columns: 1fr 2fr;
+  gap:20px;
+  row-gap: 15px;
+}
 .container1 {
   width: 100%;
   display: grid;
@@ -67,7 +93,7 @@ h3{
   gap: 5px;
   border: dotted #c9a34b;
   height:auto;
-  justify-content: center;
+  justify-content: left;
   grid-template-columns: repeat(3, 91px, 91px)
 }
 
@@ -75,7 +101,8 @@ h3{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 15px;
+  justify-items: center;
   align-items: stretch;
   border: none;
 }
@@ -108,8 +135,8 @@ h3{
 .recipe,
 .travel {
   display: grid;
-  height: 400px;
   overflow-y: scroll;
+  height: 400px;
   padding: 2%;
   width: auto;
 }
@@ -182,13 +209,7 @@ nav{
 }
 
 
-.container{
-  display: grid;
-  width:auto;
-  grid-template-columns: 1fr 2fr;
-  gap:20px;
-  row-gap: 15px;
-}
+
 img{
   width: 100%;
   height: auto;
